@@ -3,14 +3,17 @@ import java.util.Scanner;
 
 public class PowerOfTwo {
     public static void main(String[] args) {
+        //Create an object of scanner class
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number : ");
-        int inputNumber = scanner.nextInt();
+        //scans the next token of input as int
+        int input = scanner.nextInt();
         scanner.close();
 
+        //logical part
         int powerOfTwo = 1;
-        if(inputNumber > 0 && inputNumber < 31) {
-            for (int i = 1; i <= inputNumber; i++) {
+        if(input > 0 && input < 31) {
+            for (int i = 1; i <= input; i++) {
                 powerOfTwo = powerOfTwo * 2;
                 System.out.println(2 + "to the Power " +i+ " : "+powerOfTwo);
             }

@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class SwapNumbers {
 
     public static void main(String[] args) {
-        int x, y, t; // x and y are to swap
+        // x and y are to swap
+        int x, y, t;
+        //Create an object of scanner class
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of X and Y");
         x = sc.nextInt();

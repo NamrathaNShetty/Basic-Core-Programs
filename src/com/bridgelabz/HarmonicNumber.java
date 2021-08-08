@@ -4,8 +4,10 @@ import java.util.Scanner;
 public class HarmonicNumber {
     public static void main(String[] args)
     {
+        //Create object of Scanner class
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter any number : ");
+        //initialize n ,scans the next token of input as int
         int n=sc.nextInt();
         isHarmonicNumber(n);
 

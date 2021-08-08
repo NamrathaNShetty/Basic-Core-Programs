@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class VowelConsonant {
     public static void main(String[] args) {
-
+        //Create object of Scanner class
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a character : ");
         //get input and it is stored ch variable
